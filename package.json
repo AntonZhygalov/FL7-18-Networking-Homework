@@ -4,7 +4,7 @@
   "description": "Networking-Homework",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/"
   },
   "author": "anton_zhygalov",
   "license": "ISC",
@@ -12,5 +12,10 @@
     "body-parser": "^1.17.2",
     "crypto-js": "^3.1.9-1",
     "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
   }
 }
